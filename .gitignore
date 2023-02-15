@@ -1,0 +1,9 @@
+/composer.phar
+/composer.lock
+/vendor/
+/bin/composer.phar
+/bin/php-cs-fixer.phar
+/bin/phpstan.phar
+/bin/phpunit.phar
+/.phpunit.result.cache
+/.idea/

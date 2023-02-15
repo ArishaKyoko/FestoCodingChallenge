@@ -1,0 +1,29 @@
+{
+  "name": "arishakyoko/fcc",
+  "description": "This is my Festo Coding Challange implementations in PHP",
+  "authors": [{
+    "name": "Franziska Frenzel",
+    "email": "info@f-frenzel.de"
+  }],
+  "type": "project",
+  "platform": {
+    "php": "7.4.11"
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "FCC\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FCCTest\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.9",
+    "phpunit/phpunit": "^9.5"
+  }
+}

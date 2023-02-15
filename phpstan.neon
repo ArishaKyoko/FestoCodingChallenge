@@ -1,0 +1,9 @@
+parameters:
+    level: 8
+    paths:
+        - ./src/Traits
+        - ./src/Year2022
+        - ./tests
+    excludePaths:
+        - ./vendor/autoload.php
+        - ./vendor
